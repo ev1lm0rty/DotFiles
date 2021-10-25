@@ -101,8 +101,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls='ls -lh --color'
 alias code='cd /home/morty/Work/CodeSpace'
+alias hack='cd /home/morty/Work/HackSpace'
 alias work='cd /home/morty/Work'
-alias bbt='cd /home/morty/Work/HackSpace/BBT/Programs'
+alias bbt='cd /home/morty/Work/HackSpace/BBT/Targets'
+alias nbbt='cd /home/morty/Work/HackSpace/BBT/Bug-Notes'
+alias htb='cd /home/morty/Work/HackSpace/HTB'
+alias thm='cd /home/morty/Work/HackSpace/THM'
 alias notes='cd /home/morty/Work/Notes'
 alias shs='hostname -I ; echo ; python3 -m http.server'
 alias tmux='tmux -u'
